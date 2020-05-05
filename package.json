@@ -1,0 +1,28 @@
+{
+  "name": "fa-list-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "tsc": "tsc ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fa-list-gen": "node ./bin/index.js -d ./test/"
+  },
+  "bin": {
+    "fa-list-gen": "./bin/index.js"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.22",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/free-regular-svg-icons": "^5.11.2",
+    "@fortawesome/free-solid-svg-icons": "^5.10.2",
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
